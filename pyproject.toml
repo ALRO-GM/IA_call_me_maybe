@@ -1,0 +1,35 @@
+[project]
+name = "call-me-maybe"
+version = "1.0.0"
+description = "Function calling with constrained decoding on a small LLM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pydantic>=2.6",
+    "llm-sdk",
+]
+
+[dependency-groups]
+dev = [
+    "flake8>=7.0",
+    "mypy>=1.10",
+    "pytest>=8.0",
+]
+
+[tool.uv.sources]
+llm-sdk = { path = "llm_sdk", editable = true }
+
+[tool.mypy]
+python_version = "3.10"
+plugins = ["pydantic.mypy"]
+exclude = ['^\.venv/', '^llm_sdk/', '^build/']
+
+[[tool.mypy.overrides]]
+module = ["llm_sdk", "llm_sdk.*"]
+follow_imports = "skip"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: tests that load the real model"]

@@ -1,0 +1,13 @@
+[
+ {"name": "fn_multiply", "description": "Multiply two numbers and return the product.", "parameters": {"x": {"type": "number"}, "y": {"type": "number"}}, "returns": {"type": "number"}},
+ {"name": "fn_is_even", "description": "Check whether an integer is even.", "parameters": {"n": {"type": "integer"}}, "returns": {"type": "boolean"}},
+ {"name": "fn_send_email", "description": "Send an email to a recipient with a subject and a body.", "parameters": {"to": {"type": "string"}, "subject": {"type": "string"}, "body": {"type": "string"}}, "returns": {"type": "boolean"}},
+ {"name": "fn_set_alarm", "description": "Set an alarm at a given hour and minute, optionally repeating every day.", "parameters": {"hour": {"type": "integer"}, "minute": {"type": "integer"}, "repeat": {"type": "boolean"}}, "returns": {"type": "string"}},
+ {"name": "fn_to_uppercase", "description": "Convert a text to upper case.", "parameters": {"text": {"type": "string"}}, "returns": {"type": "string"}},
+ {"name": "fn_get_weather", "description": "Get the current weather for a city.", "parameters": {"city": {"type": "string"}, "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]}}, "returns": {"type": "string"}},
+ {"name": "fn_count_words", "description": "Count the number of words in a sentence.", "parameters": {"sentence": {"type": "string"}}, "returns": {"type": "integer"}},
+ {"name": "fn_power", "description": "Raise a base to an exponent.", "parameters": {"base": {"type": "number"}, "exponent": {"type": "number"}}, "returns": {"type": "number"}},
+ {"name": "fn_average", "description": "Compute the average of a list of numbers.", "parameters": {"values": {"type": "array", "items": {"type": "number"}}}, "returns": {"type": "number"}},
+ {"name": "fn_create_user", "description": "Create a user account.", "parameters": {"user": {"type": "object", "properties": {"name": {"type": "string"}, "age": {"type": "integer"}, "admin": {"type": "boolean"}}}, "tags": {"type": "array", "items": {"type": "string"}}}, "returns": {"type": "string"}},
+ {"name": "fn_get_time", "description": "Return the current time.", "parameters": {}, "returns": {"type": "string"}}
+]

@@ -1,0 +1,22 @@
+[
+ {"prompt": "Multiply 6 by 7"},
+ {"prompt": "What is 3.5 times -2?"},
+ {"prompt": "Is 1024 an even number?"},
+ {"prompt": "Send an email to bob@example.com with subject 'Lunch' and body 'See you at noon'"},
+ {"prompt": "Wake me up at 7:45 every day"},
+ {"prompt": "Set an alarm for 23:05, just once"},
+ {"prompt": "Make \"hello world\" uppercase"},
+ {"prompt": "What's the weather like in Madrid in celsius?"},
+ {"prompt": "Tell me the weather in New York using fahrenheit"},
+ {"prompt": "How many words are in 'the quick brown fox jumps'?"},
+ {"prompt": "Compute 2 to the power of 10"},
+ {"prompt": "What is the average of 4, 8, 15, 16, 23 and 42?"},
+ {"prompt": "Create an admin user named Alice, aged 30, with tags dev and ops"},
+ {"prompt": "What time is it?"},
+ {"prompt": "Multiply 123456789 by 0.001"},
+ {"prompt": "Convert 'café ñandú 你好' to upper case"},
+ {"prompt": "Uppercase the text: She said \"hi\" and left"},
+ {"prompt": ""},
+ {"prompt": "Count the words in 'C:\\Users\\test is a path'"},
+ {"prompt": "I'd like to know if 7 is even"}
+]

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tools
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Program output (must not be committed)
+data/output/
+output/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
